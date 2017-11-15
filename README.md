@@ -18,3 +18,7 @@ const fileDetails = await uploader(files, fileOptions);
 console.log(fileDetails);
 
 ```
+
+**Important**
+
+Make sure you allowed multipart request when receiveing files
